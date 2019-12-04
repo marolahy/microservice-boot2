@@ -28,7 +28,7 @@ class ApprentissageApplicationTests {
 		.willReturn(50,30);
 		Multiplication multiplication = multiplicationService.createRandomMultiplication();
 
-		assertEquals(5,multiplication.getFactorA());
+		assertEquals(50,multiplication.getFactorA());
 		assertEquals(30,multiplication.getFactorB());
 		assertEquals(1500,multiplication.getResult());
 
